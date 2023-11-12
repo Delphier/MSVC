@@ -1,7 +1,7 @@
 # MSVC Portable
 Portable Microsoft Visual C++ Compiler extract from Visual Studio Installer, include Windows SDK headers and libraries.
 
-## Versions
+## Download
 | VC           | Windows SDK | Visual Studio      | Size   | Packing Date |
 |--------------|-------------|--------------------|--------|--------------|
 | v14.37.32822 | v10.0.22621 | Visual Studio 2022 | 102 MB | 2023/11/12   |
