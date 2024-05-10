@@ -4,19 +4,25 @@ Portable Microsoft Visual C++ Compiler extract from Visual Studio Installer, inc
 ## Download
 | VC           | Windows SDK | Visual Studio      | Size   | Packing Date |
 |--------------|-------------|--------------------|--------|--------------|
-| v14.37.32822 | v10.0.22621 | Visual Studio 2022 | 102 MB | 2023/11/12   |
+| v14.39.33519 | v10.0.22621 | Visual Studio 2022 | 103 MB | 2024/05/10   |
 
 Download from [Releases](../../releases).
 
 ## Usage
 ```
-msvcvars.bat // set environment variables
-cl.exe ...   // run compiler
+setup.bat    # set environment variables
+cl.exe       # run compiler
 ```
 
-## DIY
+## Windows Terminal
+Create new profile and set command line:
+```
+%SystemRoot%\System32\cmd.exe /K ...\MSVC\setup.bat
+```
+
+## Build
 You can using this [Python script](https://gist.github.com/Delphier/386097ba36f6399e2e593c59d66d224b) to download latest version from Microsoft:
 ```
-python.exe msvc_portable.py
+python.exe portable-msvc.py
 ```
 Thanks to [@mmozeiko](https://github.com/mmozeiko)
