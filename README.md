@@ -12,8 +12,8 @@ Download from [Releases](../../releases).
 
 ## Usage
 ```
-setup_x64/x86.bat	# set environment variables
-cl.exe				# run compiler
+setup_x64/x86.bat  # set environment variables
+cl.exe             # run compiler
 ```
 
 ## Windows Terminal
