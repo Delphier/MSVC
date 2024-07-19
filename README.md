@@ -12,23 +12,17 @@ Download from [Releases](../../releases).
 
 ## Usage
 ```
-setup.bat    # set environment variables
-cl.exe       # run compiler
+setup_x64.bat    # set environment variables
+cl.exe           # run compiler
 ```
 
 ## Windows Terminal
 Create new profile and set command line:
 ```
-%SystemRoot%\System32\cmd.exe /K ...\MSVC\setup.bat
+%SystemRoot%\System32\cmd.exe /K ...\MSVC\setup_x64.bat
 ```
 
 ## Build latest version
-You can using  ```MSVC-Portable.bat``` to download latest version from Microsoft:
-```
-rmdir MSVC /s/q
-curl https://gist.githubusercontent.com/mmozeiko/7f3162ec2988e81e56d5c4e22cde9977/raw/portable-msvc.py | python - --accept-license
-rename msvc MSVC
-rmdir downloads /s/q
-pause
-```
+You can using  ```MSVC-Portable.bat``` to download latest version from Microsoft.
+
 Thanks to [@mmozeiko](https://gist.github.com/mmozeiko/7f3162ec2988e81e56d5c4e22cde9977)
